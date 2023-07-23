@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  background-color:grey;
+  padding: 20px;
+  text-align: center;
+}
+
+.column {
+
+  float: left;
+  padding: 10px;
+}
+.column.side {
+ 
+ width: 25%;
+}
+.column.middle {
+ 
+  width: 50%;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+.footer {
+  background-color:grey;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Programming Language</h1>
+  <p>Welcome to learn about programming</p>
+</div>
+
+
+
+<div class="row">
+  <div class="column side">
+    <h2>Java</h2>
+    <p>Java is a powerful general-purpose programming language. It is used to develop desktop and mobile applications, big data processing, embedded systems, and so on. According to Oracle, the company that owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular programming languages</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>C</h2>
+    <p>C is a powerful general-purpose programming language. It can be used to develop software like operating systems, databases, compilers, and so on. C programming is an excellent language to learn to program for beginners.</p>
+  </div>
+  
+  <div class="column side">
+    <h2>Python</h2>
+    <p>Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of their features support functional programming and aspect-oriented programming</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p><a href="file:///C:/Users/RAGHUL/Desktop/html/index3.html">Next Page</a></p>
+</div>
+  
+</body>
+</html>
+
+
+
+
